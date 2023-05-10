@@ -1,0 +1,61 @@
+cars
+------------------------
+
+id SMALL / MEDIUMINT PRIMARY_KEY(UNIQUE - NOT NULL) AUTO_INCREMENT
+brand VARCHAR(30) NOT NULL
+model VARCHAR(30) NOT NULL
+version VARCHAR(30) DEFAULT
+car_body_type VARCHAR(30) DEFAULT
+fuel_type VARCHAR(30) NOT NULL
+year YEAR NOT NULL
+price SMALL / MEDIUMINT NOT NULL
+km SMALL / MEDIUMINT NOT NULL
+engine_power SMALL / MEDIUMINT NOT NULL
+traction_type VARCHAR(20) DEFAULT
+gear_type VARCHAR(20) NOT NULL
+seats_number TINYINT DEFAULT
+ASI_enrollable TINYINT
+truck_type_N TINYINT 
+previous_owners TINYINT
+damaged_vehicle TINYINT
+emission_class VARCHAR(10) NOT NULL
+exterior_color VARCHAR(30)
+interior_color VARCHAR(30)
+interior_material VARCHAR(30)
+novice_drivers_allowed TINYINT 
+vehicle_description TEXT
+
+
+
+Optional:
+abs TINYINT
+airbag-front TINYINT
+airbag-back TINYINT
+anti_theft_alarm TINYINT
+radio TINYINT
+bluetooth TINYINT
+alloy_wheels TINYINT
+air_conditioner TINYINT
+key_locking TINYINT
+cruise_control TINYINT
+brake_assistant TINYINT
+speed_limiter TINYINT
+parking_sensor TINYINT
+auto_parking_system TINYINT
+winter_tire TINYINT
+four_season_tire TINYINT
+electric_seats TINYINT
+gps_computer TINYINT
+start/stop_button TINYINT
+panoramic_rooftop TINYINT
+usb_charger TINYINT
+
+
+
+
+
+
+
+
+
+
